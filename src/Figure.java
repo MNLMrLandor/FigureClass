@@ -1,5 +1,5 @@
 public abstract class Figure implements FigureInterface{
-    private int numberOfSides;
+    private final int numberOfSides;
 
     public Figure(int numberOfSides){
         this.numberOfSides = numberOfSides;
