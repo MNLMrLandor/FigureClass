@@ -3,5 +3,5 @@ public interface FigureInterface {
         System.out.printf("Figure Name: %s", getClass().getName());
     }
 
-    void getNumberOfSides();
+    int getNumberOfSides();
 }
