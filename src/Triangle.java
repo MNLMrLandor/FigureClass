@@ -1,6 +1,6 @@
 public class Triangle extends Figure{
-    private double height;
-    private double base;
+    private final double height;
+    private final double base;
 
     public Triangle(double h, double b){
         super(3);
@@ -12,16 +12,8 @@ public class Triangle extends Figure{
         return this.base;
     }
 
-    public void setBase(double base) {
-        this.base = base;
-    }
-
     public double getHeight() {
         return this.height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
     }
 
     @Override
