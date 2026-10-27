@@ -22,10 +22,11 @@ public class Triangle extends Figure{
     }
     @Override
     public String toString(){
-        return String.format("Name = Triangle \n " +
-                        "Base = %.2f \n " +
+        return String.format(" Name = Triangle \n " + //hardcoded the name and number of sides because it will not change
+                        "Number of sides: 3 \n" +
+                        " Base = %.2f \n " +
                         "Height = %.2f \n " +
-                        "Area = %.2f",
+                        "Area = %.2f\n",
                         base, height, this.getArea());
 
     }

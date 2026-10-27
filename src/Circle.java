@@ -15,9 +15,10 @@ public class Circle extends Figure{
     }
     @Override
     public String toString(){
-        return String.format("Name = Rectangle \n " +
-                        "radius = %.2f \n " +
-                        "Area = %.2f",
+        return String.format(" Name = Circle \n " + //hardcoded name and number of sides becuase it will not change
+                        "Number of sides: 0 \n" +
+                        " radius = %.2f \n " +
+                        "Area = %.2f\n",
                         radius, this.getArea());
     }
 }

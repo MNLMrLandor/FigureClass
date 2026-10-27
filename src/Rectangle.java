@@ -22,10 +22,11 @@ public class Rectangle extends Figure{
     }
     @Override
     public String toString(){
-            return String.format("Name = Rectangle \n " +
-                            "Length = %.2f \n " +
+            return String.format(" Name = Rectangle \n " + //hardcoded name and number of sides because it will not change
+                            "Number of sides: 4 \n" +
+                            " Length = %.2f \n " +
                             "Width = %.2f \n " +
-                            "Area = %.2f",
+                            "Area = %.2f\n",
                     length, width, this.getArea());
         }
 }
